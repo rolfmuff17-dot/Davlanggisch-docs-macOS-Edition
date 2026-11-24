@@ -2,9 +2,54 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Davlanggisch Docs – Software Updates</title>
-        <link>https://github.com/rolfmuff17-dot/Davlanggisch-docs</link>
+        <link>https://github.com/rolfmuff17-dot/Davlanggisch-docs-macOS-Edition</link>
         <description>Neueste Updates und Wörterbuch-Erweiterungen für Davlanggisch Docs macOS.</description>
         <language>de</language>
+
+        <!-- ==================== VERSION 1.2.0 (BUILD 11) ==================== -->
+        <item>
+            <title>Davlanggisch Docs Version 1.2.0</title>
+            <description><![CDATA[
+                <h2>Neuheiten &amp; Verbesserungen in Davlanggisch Docs 1.2.0 (Build 11):</h2>
+                <ul>
+                    <li><strong>1. Aufklappbare Grammatik-Karten pro Zeile (Accordion-System) &amp; Automatische Bündelung:</strong> Jede Tabellenzeile im Wörterbuch verfügt über ein Aufklapp-Symbol (▶ / ▼ sowie den Button „▼ Formen“), das sämtliche gebeugten Formen kompakt unter einem einzigen Eintrag bündelt, sodass in der Haupttabelle nur die Grundformen (z. B. Verben auf „-it“ und Adjektiv-Grundformen) angezeigt werden:
+                        <ul>
+                            <li><em>Verben (Grundstamm auf „-it“):</em> Bestehende Konjugationszeilen im Wörterbuch werden automatisch unter dem Infinitiv auf „-it“ zusammengefasst. Beim Aufklappen erscheint eine übersichtliche Konjugationstabelle über alle Personen (ich/in, du/to, er·sie·es/hil·hel·hol, wir/worn, ihr/hirst, sie/huls) und alle drei Zeitformen (Gegenwart/Präsens, Vergangenheit/Präteritum, Zukunft/Futur I) – jeweils mit eigenem Vorlese-Button.</li>
+                            <li><em>Adjektive:</em> Bestehende Steigerungsformen werden automatisch unter der Grundform gebündelt. Im aufgeklappten Bereich werden Grundform, Komparativ (-er), Superlativ mit und ohne „am“ (-estet) sowie Geschlechts-, Mehrzahl- und unbestimmte Endungen inklusive Vorlesefunktion dargestellt.</li>
+                            <li><em>Nomen:</em> Kompakte Bündelung von Singular, Plural, bestimmten und unbestimmten Artikeln (li / e) sowie Kontext- und Kasusformen inklusive Vorlesefunktion.</li>
+                        </ul>
+                    </li>
+                    <li><strong>2. Kaya AI Beispielsatz-Generator &amp; Kontext-Vorschau:</strong> Direkt innerhalb jeder aufgeklappten Wortkarte erzeugt Kaya AI auf Klick („Beispielsätze generieren“) 1–2 passende Beispielsätze auf Deutsch zusammen mit der korrekten Davlanggisch-Übersetzung, Lautschrift und Audio-Vorlesefunktion.</li>
+                    <li><strong>3. Wortstamm-, Reim-Finder &amp; Silben-Generator:</strong>
+                        <ul>
+                            <li><em>Live Wortstamm- &amp; Reim-Check:</em> Zeigt beim Eintippen automatisch bestehende Davlanggisch-Wörter mit identischer Anfangssilbe (Wortstamm-Check) oder Endsilbe (Reim-Check) an, um ungewollte Verwechslungen zu vermeiden.</li>
+                            <li><em>Silben-Generator:</em> Erzeugt per Knopfdruck („Silben-Generator“ sowie über die Kaya AI Leiste) neue, noch nicht vergebene Davlanggisch-Wortvorschläge inklusive Silbengliederung und Lautschrift passend zur Wortart.</li>
+                        </ul>
+                    </li>
+                    <li><strong>4. Echtzeit-Farbcheck &amp; Wortart-Farben für deutsche Wörter:</strong>
+                        <ul>
+                            <li><em>Wortart-Farben in der Tabelle:</em> Jedes deutsche Wort in der Wörterbuch-Tabelle wird automatisch in der passenden Farbe seiner Wortart dargestellt (Nomen = Blau, Verb = Grün, Adjektiv = Violett, Präposition/Artikel/Pronomen = Orange, Sonstige = Grau).</li>
+                            <li><em>Echtzeit-Duplikat-Schriftfarbe:</em> Beim Eintippen eines neuen Wortes prüft das Eingabefeld live gegen die Datenbank und färbt die Schrift sofort rot ein, sobald das deutsche Wort bereits existiert.</li>
+                        </ul>
+                    </li>
+                    <li><strong>5. Separater Vorschlags-Gist &amp; Passwortgeschützte Admin-Freigabe:</strong>
+                        <ul>
+                            <li>Anbindung der Vorschlags-Gist-Datenbank (<code>bb3d97c220652d5207341b2a6b4b19af</code>) für eingereichte Wortvorschläge im Vorschlags-Modus.</li>
+                            <li>Neuer Bereich „Wortvorschläge verwalten“ in den Einstellungen mit Namensauswahl (Auswahl des Erfinder-/Benutzerprofils für Eintrag und Freigabe), Inline-Bearbeitung, Ablehnen-Funktion und passwortgeschützter Admin-Freigabe („In Hauptdatenbank übernehmen“), die ausgewählte Vorschläge in den Haupt-Gist überträgt und aus dem Vorschlags-Gist entfernt.</li>
+                        </ul>
+                    </li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 24 Nov 2026 20:34:25 +0100</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs-macOS-Edition/releases/download/v1.2.0/DavlanggischDocs-1.2.0.dmg"
+                length="2477817"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="QKydbYtfJLhZ8Ia3LMuedNzXkcKucmboZuPqUSljf7jv6QJXxjkrOCZO1dui3GI06BUNHtgY4+cEuW16uyhCBg==" />
+        </item>
 
         <!-- ==================== VERSION 1.1.3 (BUILD 10) ==================== -->
         <item>
@@ -27,7 +72,7 @@
             <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.3/DavlanggischDocs-1.1.3.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs-macOS-Edition/releases/download/v1.1.3/DavlanggischDocs-1.1.3.dmg"
                 length="2450803"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="/EcspexD4/ccP64X1M2HgNDCd2Yyhh82CYWGNby7FJhwqoJtdcXsAxP+h5ejp1RmBN1/6OHyEbO/N8tXOz2EAA==" />
@@ -50,7 +95,7 @@
             <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.2/DavlanggischDocs-1.1.2.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs-macOS-Edition/releases/download/v1.1.2/DavlanggischDocs-1.1.2.dmg"
                 length="2442182"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="dytrUdImDPmIBL2AU4A1wNxNWA/YfTuPK2ztFGUrqx3E/Uco2MKrbaRiyuW3g+N9qj9kYCkf01s+kKAcSafnBQ==" />
@@ -72,7 +117,7 @@
             <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.1/DavlanggischDocs-1.1.1.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs-macOS-Edition/releases/download/v1.1.1/DavlanggischDocs-1.1.1.dmg"
                 length="2413788"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="ei9Idg9mSITWGv0XbQfZdkHzLRTbMJrQRJprSTQhZzdeYyRSN7eD962s8Z71HQvTMPA8k5UFPLSLflqZbfSeDQ==" />
@@ -99,7 +144,7 @@
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.0/DavlanggischDocs-1.1.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs-macOS-Edition/releases/download/v1.1.0/DavlanggischDocs-1.1.0.dmg"
                 length="2414057"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="vefr/pckyKXWR8sHNN9geC81TerPhF0oTgGA8tdHxsWewm2ez9yY4O5yxtLWs/mWXm601GPuJ242tGTY9uw+AA==" />
@@ -121,7 +166,7 @@
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.2/DavlanggischDocs-1.0.2.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs-macOS-Edition/releases/download/v1.0.2/DavlanggischDocs-1.0.2.dmg"
                 length="2325172"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="durPbWSMnWc+7xHZ1DaT8jqk0lJEhyrao+L5/Gg5E6MbfkCKbdZrUKYljKmzAXpU8V+3ffMQAvagW2tl/1EkDw==" />
@@ -151,7 +196,7 @@
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.1/DavlanggischDocs-1.0.1.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs-macOS-Edition/releases/download/v1.0.1/DavlanggischDocs-1.0.1.dmg"
                 length="2326211"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="rccruKrX7kNI4QbnrNQQ9jPKr291NYLNHh3g3/GjeRmWd2Q5KdzXut4vtt51aRRt9xAXmzg4ycT/51Mj7S/dBA==" />
@@ -177,7 +222,7 @@
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.0/DavlanggischDocs-1.0.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs-macOS-Edition/releases/download/v1.0.0/DavlanggischDocs-1.0.0.dmg"
                 length="2070508"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="Xlh+iL1xO+yp5ru+LqSq86L2faj9B437hxQf+IEbggVIus9s8LbtAEJfbTmusmn9GtjH8ajgYvPYSaVonVAECQ==" />
